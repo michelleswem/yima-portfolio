@@ -1,0 +1,37 @@
+body {
+  font-family: "Crimson Pro", serif;
+  font-weight: 400;
+  color: $color-black;
+}
+
+.heading-primary {
+  font-size: 6rem;
+  font-weight: 700;
+
+  &__main {
+    display: block;
+    color: $color-white;
+  }
+
+  &__sub {
+    display: block;
+    color: $color-orange;
+  }
+}
+
+.heading-secondary {
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  color: $color-orange;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 0.7rem;
+}
